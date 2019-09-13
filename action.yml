@@ -1,6 +1,6 @@
 name: 'Setup MySQL'
 description: 'Setup a MySQL database'
-author: 'Mirro Mutth'
+author: 'Samin Shams'
 branding:
   icon: 'database'
   color: 'orange'
@@ -25,22 +25,22 @@ inputs:
     description: 'Version of MySQL to use'
     required: false
     default: 'latest'
-  mysql root password:
-    description: 'MYSQL_ROOT_PASSWORD - root superuser password'
-    required: false
-    default: ''
+  # mysql root password:
+  #   description: 'MYSQL_ROOT_PASSWORD - root superuser password'
+  #   required: false
+  #   default: ''
   mysql database:
     description: 'MYSQL_DATABASE - name for the default database that is created'
     required: false
     default: ''
-  mysql user:
-    description: 'MYSQL_USER - create the specified user with superuser power for created database'
-    required: false
-    default: ''
-  mysql password:
-    description: 'MYSQL_PASSWORD - specified superuser password which user is power for created database'
-    required: false
-    default: ''
+  # mysql user:
+  #   description: 'MYSQL_USER - create the specified user with superuser power for created database'
+  #   required: false
+  #   default: ''
+  # mysql password:
+  #   description: 'MYSQL_PASSWORD - specified superuser password which user is power for created database'
+  #   required: false
+  #   default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
