@@ -3,7 +3,7 @@ description: 'Start a MySQL database'
 author: 'Samin Shams'
 branding:
   icon: 'database'
-  color: 'orange'
+  color: 'green'
 inputs:
   host port:
     description: 'The port of host'
