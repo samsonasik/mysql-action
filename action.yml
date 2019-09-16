@@ -1,5 +1,5 @@
-name: 'Setup MySQL'
-description: 'Setup a MySQL database'
+name: 'Start MySQL'
+description: 'Start a MySQL database'
 author: 'Samin Shams'
 branding:
   icon: 'database'
